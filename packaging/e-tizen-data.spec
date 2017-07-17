@@ -16,6 +16,12 @@ BuildRequires: eet-bin
 BuildRequires: edje-tools
 BuildRequires: xkb-tizen-data
 Requires:      enlightenment
+Requires:      e-mod-tizen-wm-policy
+Requires:      e-mod-tizen-wm-keyrouter
+Requires:      e-mod-tizen-processmgr
+Requires:      e-mod-tizen-devicemgr
+Requires:      e-mod-tizen-wl-textinput
+Requires:      xkeyboard-config
 
 %{!?TZ_SYS_RO_SHARE: %global TZ_SYS_RO_SHARE /usr/share}
 
